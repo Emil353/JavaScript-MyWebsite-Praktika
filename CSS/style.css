@@ -1,0 +1,219 @@
+/* --------------------- */
+/* --- General Style --- */
+/* --------------------- */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bodyPar {
+    font-family: American Typewriter, serif;
+    background: #f5f5f5;
+}
+
+img {
+    -webkit-user-select: none;
+    /* Safari, Chrome */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+    /* CSS3 */
+}
+
+/* ---------------------------- */
+/* --- General Header Style --- */
+/* ---------------------------- */
+
+header {
+    min-height: 100px;
+    padding-top: 25px;
+    background-image: linear-gradient(to bottom right, #b5d5d5, #569494);
+    border-bottom: 10px inset #ef3038;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 25px;
+}
+
+header {
+    text-align: center;
+    font-family: Luminari, fantasy;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+header #headerNavBar a {
+    font-size: 150%;
+    margin-right: 15px;
+    color: #ffee33;
+    border: 1px solid grey;
+    border-radius: 40px 20px 40px 20px;
+    background: #905d5d;
+    transition-duration: 1.2s;
+
+    -webkit-user-select: none;
+    /* Safari, Chrome */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+    /* CSS3 */
+}
+
+header #headerNavBar a:hover {
+    color: #c2b200;
+    background: #645452;
+}
+
+header #headerNavBar #disabledNavBar {
+    color: #534b4f;
+    background: #a9a9a9;
+    cursor: not-allowed;
+}
+
+/* --------------------- */
+/* --- Main Settings --- */
+/* --------------------- */
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 125%;
+}
+
+/* ------------------------------- */
+/* --- General Footer Settings --- */
+/* ------------------------------- */
+
+footer {
+    min-height: 100px;
+    padding-top: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, #569494, #b5d5d5);
+    border-top: 10px inset #ef3038;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 125%;
+}
+
+/* ---------------------- */
+/* --- Index Settings --- */
+/* ---------------------- */
+
+#indexInformationTitle h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#indexInformationTitle hr {
+    border-color: black;
+}
+
+#indexInformation img {
+    width: 175px;
+    height: 200px;
+    border: 2px solid gray;
+    margin-right: 75px;
+    float: left;
+}
+
+#indexInformationPhoto img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+/* ------------------------- */
+/* --- Schedule Settings --- */
+/* ------------------------- */
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+table .dayOfWeek {
+    text-align: right;
+    background-color: darkgrey;
+}
+
+table .lessonNumber {
+    width: 65px;
+    height: 55px;
+    background-color: lightblue;
+}
+
+.teachersIdColumm {
+    width: 5%;
+}
+
+.teachersNameColumm {
+    width: 25%;
+}
+
+.teachersSubjectColumm {
+    width: 70%;
+}
+
+#teacherSettingsContainer .row div {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#teacherSettingsContainer .row div input {
+    width: 50%;
+}
+
+#createTeacherField {
+    background-color: lightblue;
+}
+
+#deleteTeacherField {
+    background-color: lightcoral;
+}
+
+#editCards {
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#editButtons .button {
+    position: absolute;
+    top: 50%;
+}
+
+#scheduleSettingsContainer .row .col {
+    border: 2px solid black;
+}
+
+#scheduleSettingsContainer input {
+    width: 35px;
+    height: 30px;
+    text-align: center;
+}
